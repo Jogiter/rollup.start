@@ -1,0 +1,27 @@
+{
+  "name": "rollup_in",
+  "version": "1.0.0",
+  "description": "the next-generation JavaScript module bundler",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "build": "rollup -c rollup.config.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-css-only": "^0.2.0",
+    "rollup-plugin-json": "^2.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-plugin-vue2": "^0.6.1",
+    "rollup-watch": "^3.2.2"
+  },
+  "dependencies": {
+    "rollup": "^0.41.1"
+  }
+}
